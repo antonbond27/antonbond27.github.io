@@ -1,0 +1,14 @@
+.heading::before{
+    content: '*';
+    color: red;
+
+}
+
+.heading::after{
+    content: '@';
+    color: rgb(20, 223, 54);
+
+}
+.heading{
+    font-size: 32px;
+}

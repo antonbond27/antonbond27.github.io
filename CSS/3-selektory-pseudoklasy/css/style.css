@@ -1,0 +1,55 @@
+.btn{
+    font-size: 32px;
+    text-transform: uppercase;
+    background-color: darkorange;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+.btn::after{
+    content: '*';
+    transition: all 0.4s;
+}
+
+.btn:hover::after{
+    font-size: 50px;
+}
+
+/* Pseudoklasa focus */
+
+.text-input{
+    margin-top: 15px;
+    border: 3px solid green;
+}
+.text-input:focus{
+    border: 3px solid rgb(253, 11, 11);
+}
+
+/* Pseudoklasa potomstwa */
+.list-item:first-child{
+    color: red;
+}
+
+.list-item:last-child{
+    color: rgb(157, 235, 12);
+}
+
+p:first-of-type{
+    color: brown
+}
+.list-item:nth-of-type(5){
+    color: green;
+}
+.list-item:nth-of-type(odd){
+    color: grey;
+}
+.list-item:nth-of-type(3n + 1){
+    font-size: 32px;
+}

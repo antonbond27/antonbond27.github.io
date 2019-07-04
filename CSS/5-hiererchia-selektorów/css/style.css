@@ -1,0 +1,19 @@
+#main-heading{
+    color: green;
+}
+
+.heading{
+    color: red;
+}
+
+h2 {
+    color: orange;
+}
+
+/* h2{
+    color: blue;
+} */ 
+
+* {
+    color: blue;
+}
