@@ -1,4 +1,12 @@
 .background{
     height: 400px;
-    background-color: #f00;
+    /* background-color: #f00; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Rick_Sanchez.png/160px-Rick_Sanchez.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(200, 200, 200, 0.6)), url('https://static.posters.cz/image/750/plakaty/rick-and-morty-free-rick-i49321.jpg');  */
+    
 }

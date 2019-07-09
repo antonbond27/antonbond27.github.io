@@ -1,0 +1,60 @@
+@media all and (max-width: 992px){
+    .container{
+    width: 100%
+    }
+}
+@media all and (min-width:768px) and (max-width: 992px){
+    .container{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .tekst{
+        flex-basis: 70%;
+    }
+    .aside-right{
+        flex-basis: 29%;
+        height: 99%;
+    }
+    .aside-left{
+        height: 100%;
+        flex-basis: 100%;
+        order: 2;              
+    }
+    .top{
+        order: 3;
+    }
+    
+
+}
+@media all and (max-width: 768px){
+    .container{
+        display: flexbox;
+        width: 50%;
+    }
+    .head{
+        flex-basis: 100%;
+        /* height: 100%; */
+    }
+    .tekst{
+        flex-basis: 100%;
+    }
+    .aside-right{
+        flex-basis: 100%;
+        order: 2;
+    }
+    .aside-left{
+        /* height: 75%; */
+        flex-basis: 100%;
+        order: 1;              
+    }
+    .top{
+        flex-basis: 100%;
+        order: 3;
+        /* height: 100%; */
+    }
+
+}
