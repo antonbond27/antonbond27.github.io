@@ -1,0 +1,48 @@
+@media all and (min-width: 1170px) {
+    .man-1 {
+        height: 100%;
+        width: auto;
+    }
+    .man-2 {
+        display: none;
+    }
+    .text {
+        top: 50%;
+        left: 25%;
+    }
+}
+
+@media all and (min-width:992px) and (max-width: 1170px) {
+    .man-2 {
+        height: 70%;
+        width: auto;
+    }
+    .man-1 {
+        display: none;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .text {
+        top: 20%;
+        right: 40%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .man-1 {
+        height: 100%;
+        width: auto;
+    }
+    .man-2 {
+        display: none;
+    }
+    .text {
+        top: 85%;
+        right: 50%;
+        text-align: center;
+        color: black;
+    }
