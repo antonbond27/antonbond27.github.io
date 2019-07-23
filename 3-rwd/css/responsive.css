@@ -1,28 +1,26 @@
 @media all and (min-width: 1170px) {
     .man-1 {
         height: 100%;
-        width: auto;
+        width: 100%;
     }
     .man-2 {
         display: none;
     }
     .text {
         top: 50%;
-        left: 25%;
+        left: 20%;
     }
 }
 
 @media all and (min-width:992px) and (max-width: 1170px) {
     .man-2 {
-        height: 70%;
-        width: auto;
+        height: 80%;
+        width: 100%;
     }
     .man-1 {
         display: none;
     }
-    h2 {
-        font-size: 24px;
-    }
+    
     h3 {
         font-size: 26px;
     }
@@ -32,17 +30,24 @@
     }
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 992px) {
     .man-1 {
-        height: 100%;
-        width: auto;
+        height: 60%;
+        width: 100%;
+        right: 0;
+        left: 0;
     }
     .man-2 {
         display: none;
     }
+    h2 {
+        font-size: 22px;
+    }
     .text {
-        top: 85%;
-        right: 50%;
+        width: 100%;
+        top: 70%;
+        right: 0;
         text-align: center;
         color: black;
     }
+}
