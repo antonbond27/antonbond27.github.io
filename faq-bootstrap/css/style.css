@@ -1,0 +1,19 @@
+*{
+    font-family:  Arial, sans-serif ;
+}
+div{
+    text-align: center;
+    }
+.btn-link:hover{
+    color: gray;
+}
+.btn-link{
+    color: orange;
+}
+hr{
+    width: 25%;
+}
+
+.collapse{
+    width: 100%;
+}
